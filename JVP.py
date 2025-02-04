@@ -16,6 +16,7 @@ def main():
   
   # JAX allows us to easily obtain the Jacobian (a matrix that is given by the 
   # deriavtive of the function w.r.t its input) --> df/dx --> we expect this matrix to be a 3*4-dim matrix
+  # jax.jacfwd(f) returns a function 
   full_jacobian = jax.jacfwd(f)(evaluation_point)
 
   # Naive implementation
