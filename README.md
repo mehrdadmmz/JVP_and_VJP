@@ -1,8 +1,8 @@
-# JVP_VJP
+# JVP_VJP 🚀🧮
 
 A simple demonstration of **forward-mode** (JVP) and **reverse-mode** (VJP) automatic differentiation using [JAX](https://github.com/google/jax).
 
-## Overview
+## Overview💫
 
 - **Forward-Mode (JVP)**: Computes the directional derivative \(\frac{\partial f}{\partial x} \cdot v\) without explicitly forming the entire Jacobian.
 - **Reverse-Mode (VJP)**: (Not fully shown in the example code yet) is typically used for gradient-based optimization and backpropagation.
@@ -15,7 +15,7 @@ In this repo, we:
    - A naive approach: `full_jacobian @ multiplication_point`.
    - JAX’s built-in `jax.jvp`.
 
-## Code Structure
+## Code Structure💻
 
 - **`f(x)`**  
   A function mapping a 4D input to a 3D output, using element-wise exponentiation.
@@ -24,18 +24,18 @@ In this repo, we:
   - Evaluates the Jacobian at a given point.  
   - Demonstrates the JVP both via manual matrix multiplication and via `jax.jvp`.
 
-## Getting Started
+## Getting Started✅
 
-1. **Clone the repo**:
+1. **Clone the repo**:🚀
    ```bash
    git clone https://github.com/yourusername/JVP_VJP.git
 
-2. **Install dependencies (make sure you have Python 3.7+):
+2. **Install dependencies (make sure you have Python 3.7+):🚀
    ```bash
    import sys
    !{sys.executable} -m pip install jax jaxlib 
 
-3. **Run the example:
+3. **Run the example:🚀
    ```bash 
    python main.py
 
