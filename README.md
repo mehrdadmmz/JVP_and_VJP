@@ -30,8 +30,13 @@ In this repo, we:
    ```bash
    git clone https://github.com/yourusername/JVP_VJP.git
 
-   pip install jax jaxlib
+2. **Install dependencies (make sure you have Python 3.7+):
+   ```bash
+   import sys
+   !{sys.executable} -m pip install jax jaxlib 
 
+3. **Run the example:
+   ```bash 
    python main.py
 
 
